@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farrel Faza Rayhan - Portfolio</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #e0e0e0;
+            line-height: 1.6;
+        }
+
+        /* Header Styles */
+        header {
+            background: url('https://images.unsplash.com/photo-1597730845828-d38c52a84471?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyNjAyNjN8MHwxfGFsbHwxfHx8fHx8fHx8MTY4MjgzMjU4MQ&ixlib=rb-1.2.1&q=80&w=1500') no-repeat center center/cover;
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+            position: relative;
+            height: 600px;
+            background-color: #333;
+        }
+
+        header .logo {
+            font-size: 36px;
+            font-weight: bold;
+            color: #ffffff;
+        }
+
+        header .logo span {
+            color: #007bff;
+        }
+
+        /* Hero Section */
+        .hero h1 {
+            margin: 0;
+            font-size: 48px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+        }
+
+        .hero p {
+            font-size: 24px;
+            margin-top: 20px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #007bff;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #0056b3;
+        }
+
+        /* About Me Section */
+        .about {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .about h2 {
+            font-size: 36px;
+            color: #007bff;
+            margin-bottom: 20px;
+        }
+
+        .about p {
+            font-size: 18px;
+            margin: 0 auto;
+            max-width: 800px;
+        }
+
+        /* Skills Section */
+        .skills {
+            padding: 50px 20px;
+            background-color: #1e1e1e;
+            text-align: center;
+        }
+
+        .skills h2 {
+            font-size: 36px;
+            color: #007bff;
+            margin-bottom: 20px;
+        }
+
+        .skill-card {
+            display: inline-block;
+            background-color: #333;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            width: 250px;
+            transition: transform 0.3s ease;
+        }
+
+        .skill-card:hover {
+            transform: scale(1.05);
+        }
+
+        .skill-card h3 {
+            color: #007bff;
+            margin: 0 0 10px;
+        }
+
+        .skill-card p {
+            margin: 0;
+        }
+
+        /* Contact Section */
+        .contact {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .contact h2 {
+            font-size: 36px;
+            color: #007bff;
+            margin-bottom: 20px;
+        }
+
+        .contact a {
+            display: inline-block;
+            margin: 10px;
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .contact a i {
+            margin-right: 5px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: #e0e0e0;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        /* Media Queries for Responsiveness */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 36px;
+            }
+
+            .cta-button {
+                width: 80%;
+                padding: 10px;
+            }
+
+            .skill-card {
+                width: 90%;
+                margin-bottom: 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero h1 {
+                font-size: 28px;
+            }
+
+            .cta-button {
+                width: 100%;
+                padding: 10px;
+            }
+
+            .skill-card {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Farrel <span>Faza Rayhan</span></div>
+        <div class="hero">
+            <h1>Selamat datang di Portfolio Saya!</h1>
+            <p>Pelajari lebih lanjut tentang keahlian dan pengalaman saya di bidang Informatika dan Cyber Security.</p>
+            <a href="#about" class="cta-button">Tentang Saya</a>
+        </div>
+    </header>
+
+    <section id="about" class="about">
+        <h2>Tentang Saya</h2>
+        <p>Halo, saya Farrel Faza Rayhan, seorang siswa di SMAN 1 Gubug yang memiliki ketertarikan besar dalam dunia informatika. Saya memiliki hasrat untuk mempelajari dan mengembangkan solusi teknologi, serta memperdalam pengetahuan saya dalam cyber security. Dengan latar belakang yang kuat dalam teknologi informasi dan keamanan siber, saya selalu bersemangat untuk menghadapi tantangan dan belajar hal-hal baru. Terima kasih telah mengunjungi portfolio saya!</p>
+    </section>
+
+    <section class="skills">
+        <h2>Keahlian</h2>
+        <div class="skill-card">
+            <h3>Informatika</h3>
+            <p>Pengembangan perangkat lunak, pemrograman, dan analisis sistem.</p>
+        </div>
+        <div class="skill-card">
+            <h3>Cyber Security</h3>
+            <p>Keamanan jaringan, analisis kerentanan, dan perlindungan data.</p>
+        </div>
+        <div class="skill-card">
+            <h3>Desain Web</h3>
+            <p>Pengembangan situs web responsif dan desain UI/UX.</p>
+        </div>
+        <div class="skill-card">
+            <h3>Database</h3>
+            <p>Manajemen dan pemeliharaan basis data.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Hubungi Saya</h2>
+        <a href="https://wa.me/yourwhatsapplink" target="_blank">
+            <i class="fab fa-whatsapp"></i> WhatsApp
+        </a>
+        <a href="https://facebook.com/yourfacebookpage" target="_blank">
+            <i class="fab fa-facebook"></i> Facebook
+        </a>
+        <a href="https://instagram.com/yourinstagrampage" target="_blank">
+            <i class="fab fa-instagram"></i> Instagram
+        </a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Farrel Faza Rayhan. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
